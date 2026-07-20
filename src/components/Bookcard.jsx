@@ -5,10 +5,7 @@ function BookCard({ book, onDelete }) {
     return "★".repeat(fullStars) + "☆".repeat(5 - fullStars);
   };
 
-  const isNepali = book.category.toLowerCase().includes("nepali");
-  const displayPrice = isNepali
-    ? `Rs. ${Math.round(book.price * 130)}`
-    : `$${book.price.toFixed(2)}`;
+  const displayPrice = `Rs. ${book.price}`;
 
   return (
     <div className="group relative bg-white/80 backdrop-blur-md rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden hover:-translate-y-1">

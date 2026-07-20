@@ -3,7 +3,7 @@ import BookCard from "./components/Bookcard";
 import BookForm from "./components/BookForm";
 import initialBooks from "./data/initialBooks";
 
-const STORAGE_KEY = "mero-kitab-books-v3";
+const STORAGE_KEY = "mero-kitab-books-v5";
 
 function App() {
   const [books, setBooks] = useState(() => {
@@ -79,7 +79,7 @@ function App() {
             <span className="text-indigo-600">Grow Personally.</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-xl">
-            Welcome to <span className="font-semibold text-gray-800">Mero Kitab</span>. 
+            Welcome to <span className="font-semibold text-gray-800">Mero Kitab</span>.
             We verify and supply authentic books ranging from ancient mythology and deep philosophy to contemporary Nepali literature.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
@@ -115,7 +115,7 @@ function App() {
             <h2 className="text-2xl font-bold text-gray-900">Available Collection</h2>
             <p className="text-sm text-gray-500">Explore and search our handpicked library</p>
           </div>
-          
+
           <div className="relative w-full sm:w-80">
             <input
               type="text"
