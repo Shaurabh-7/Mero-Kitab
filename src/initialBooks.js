@@ -6,7 +6,7 @@ const initialBooks = [
     category: "Mythology",
     price: 12.99,
     rating: 4.9,
-    cover: "https://covers.openlibrary.org/b/id/12838384-L.jpg",
+    cover: "https://akshargranth.in/cdn/shop/files/Ramayana.jpg?v=1704870685",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const initialBooks = [
     category: "Fantasy",
     price: 18.5,
     rating: 4.7,
-    cover: "https://covers.openlibrary.org/b/id/10521270-L.jpg",
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDNncV1hlQBkxfxyLWkaiJfPB5bJrQWoNDCktqDt7d3w&s=10",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const initialBooks = [
     category: "Philosophy",
     price: 9.99,
     rating: 4.9,
-    cover: "https://covers.openlibrary.org/b/id/12555546-L.jpg",
+    cover: "https://grey.com.np/cdn/shop/products/esewa.jpg?v=1682227724",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const initialBooks = [
     category: "Biography",
     price: 22.0,
     rating: 4.6,
-    cover: "https://covers.openlibrary.org/b/id/10543788-L.jpg",
+    cover: "https://m.media-amazon.com/images/I/61vmI1aG+ZL.jpg",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const initialBooks = [
     category: "Finance",
     price: 14.95,
     rating: 4.5,
-    cover: "https://covers.openlibrary.org/b/id/12915830-L.jpg",
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsKCEJUmbr3IFVdUDRNVOZRHSZuRSLQeMtR89Bva-JDslQf7tGaJJnepyQ&s=10",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const initialBooks = [
     category: "Nepali Literature",
     price: 5.99,
     rating: 4.8,
-    cover: "https://covers.openlibrary.org/b/id/12530182-L.jpg",
+    cover: "https://static-01.daraz.com.np/p/5e8c0ab846843ff743edd51d95082210.jpg",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const initialBooks = [
     category: "Nepali Literature",
     price: 8.5,
     rating: 4.7,
-    cover: "https://covers.openlibrary.org/b/id/10398692-L.jpg",
+    cover: "https://www.amaghar.com/wp-content/uploads/2025/10/AT_00963.png",
   },
 ];
 

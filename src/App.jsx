@@ -3,7 +3,7 @@ import BookCard from "./components/Bookcard";
 import BookForm from "./components/BookForm";
 import initialBooks from "./data/initialBooks";
 
-const STORAGE_KEY = "mero-kitab-books-v2";
+const STORAGE_KEY = "mero-kitab-books-v3";
 
 function App() {
   const [books, setBooks] = useState(() => {
@@ -40,7 +40,20 @@ function App() {
       <header className="sticky top-0 z-40 bg-white/70 backdrop-blur-md border-b border-indigo-100/50 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="text-2xl">📚</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2.5}
+              stroke="currentColor"
+              className="w-7 h-7 text-indigo-600"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+              />
+            </svg>
             <span className="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               Mero Kitab
             </span>
@@ -111,7 +124,11 @@ function App() {
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full border border-gray-200 rounded-xl px-4 py-2.5 pl-10 bg-white focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all text-sm shadow-sm"
             />
-            <span className="absolute left-3.5 top-3 text-gray-400 text-sm">🔍</span>
+            <span className="absolute left-3.5 top-3 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4.5 h-4.5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+              </svg>
+            </span>
           </div>
         </div>
 

@@ -6,8 +6,8 @@ function BookCard({ book, onDelete }) {
   };
 
   const isNepali = book.category.toLowerCase().includes("nepali");
-  const displayPrice = isNepali 
-    ? `Rs. ${Math.round(book.price * 130)}` 
+  const displayPrice = isNepali
+    ? `Rs. ${Math.round(book.price * 130)}`
     : `$${book.price.toFixed(2)}`;
 
   return (
